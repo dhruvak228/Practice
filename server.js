@@ -20,10 +20,10 @@ app.get('/get_data',function (req,resp) {
     
 })
 
-var server=app.listen(5500,function(){
+var server=app.listen(3000,function(){
     var host=server.address().address;
     var port=server.address().port;
 
-    console.log('server listening at port 5500',host,port);
+    console.log('server listening at port 3000',host,port);
 })
 
